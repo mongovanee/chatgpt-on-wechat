@@ -1,6 +1,8 @@
 # encoding:utf-8
 
 import plugins
+from svglib.svglib import svg2rlg
+from reportlab.graphics import renderPM
 from bridge.context import ContextType
 from bridge.reply import Reply, ReplyType
 from common.log import logger
